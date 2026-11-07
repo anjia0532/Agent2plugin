@@ -1,7 +1,7 @@
 {
   "id": "agent2api-providers",
   "name": "提供商增强",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "protocol": 1,
   "description": "为 Agent2API 扩展多家 AI 提供商，提供模型调用、账号登录与导入、凭证续期、模型目录、余额查询和签到等能力。具体功能以各提供商的支持情况为准。",
   "homepage": "https://github.com/ProvidersPlugin/Agent2Providers",
@@ -51,6 +51,10 @@
     { "id": "antigravity", "label": "Antigravity", "order": 29, "default_enabled": true },
     { "id": "doubaowork", "label": "豆包工作", "order": 30, "default_enabled": true },
     { "id": "kiro", "label": "Kiro", "order": 31, "default_enabled": true },
-    { "id": "astudio", "label": "AStudio", "order": 32, "default_enabled": true }
+    { "id": "astudio", "label": "AStudio", "order": 32, "default_enabled": true },
+    { "id": "qiniu", "label": "七牛云", "order": 33, "default_enabled": true },
+    { "id": "minimax", "label": "MiniMax Code 中国版", "order": 34, "default_enabled": true },
+    { "id": "minimaxintl", "label": "MiniMax Code 国际版", "order": 35, "default_enabled": true },
+    { "id": "buddy", "label": "CodeBuddy", "order": 36, "default_enabled": true }
   ]
 }
